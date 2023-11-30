@@ -9,10 +9,26 @@ import SwiftUI
 
 struct PreLoginView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        ZStack {
+            Image(Images.juice.rawValue).resizable()
+            Color.black.opacity(0.3)
+           
+                VStack {
+                    Image(Icons.app.rawValue)
+                    
+                    Button(action: {}, label: {
+                        HStack {
+                            Image(Icons.facebook.rawValue)
+                            Text("Button")
+                            Spacer()
+                        }.padding()
+                    }).background(Color.deepSkyBlue)
+                }
+            
+        }
     }
 }
 
 #Preview {
-    PreLoginView()
+    PreLoginView().statusBar(hidden: true)
 }

@@ -6,3 +6,8 @@
 //
 
 import Foundation
+
+
+enum Images :String {
+    case juice = "img_juice"
+}

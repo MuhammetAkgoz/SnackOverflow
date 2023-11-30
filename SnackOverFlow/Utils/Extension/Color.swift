@@ -8,6 +8,5 @@
 import SwiftUI
 
 extension Color {
-    
-    public static var deepBlue : Color {Color("deepSkyBlue")}
+
 }

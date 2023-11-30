@@ -7,18 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F56DD0002B19083800D5C96E /* snackoverflowApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F56DCFFF2B19083800D5C96E /* snackoverflowApp.swift */; };
+		F56DD0002B19083800D5C96E /* SnackOverFlow.swift in Sources */ = {isa = PBXBuildFile; fileRef = F56DCFFF2B19083800D5C96E /* SnackOverFlow.swift */; };
 		F56DD0022B19083800D5C96E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F56DD0012B19083800D5C96E /* ContentView.swift */; };
 		F56DD0042B19083A00D5C96E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F56DD0032B19083A00D5C96E /* Assets.xcassets */; };
 		F56DD0072B19083A00D5C96E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F56DD0062B19083A00D5C96E /* Preview Assets.xcassets */; };
+		F56DD0162B1909FA00D5C96E /* PreLoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F56DD0152B1909FA00D5C96E /* PreLoginView.swift */; };
+		F56DD0182B190A4800D5C96E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F56DD0172B190A4800D5C96E /* Assets.xcassets */; };
+		F56DD01A2B190A5600D5C96E /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F56DD0192B190A5600D5C96E /* Colors.xcassets */; };
+		F56DD01C2B190AA900D5C96E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F56DD01B2B190AA900D5C96E /* Images.xcassets */; };
+		F56DD0222B190D8800D5C96E /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = F56DD0212B190D8800D5C96E /* Image.swift */; };
+		F56DD0242B1911BA00D5C96E /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = F56DD0232B1911BA00D5C96E /* Color.swift */; };
+		F56DD0272B19134600D5C96E /* Icons.swift in Sources */ = {isa = PBXBuildFile; fileRef = F56DD0262B19134600D5C96E /* Icons.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		F56DCFFC2B19083800D5C96E /* snackoverflow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = snackoverflow.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		F56DCFFF2B19083800D5C96E /* snackoverflowApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = snackoverflowApp.swift; sourceTree = "<group>"; };
+		F56DCFFF2B19083800D5C96E /* SnackOverFlow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnackOverFlow.swift; sourceTree = "<group>"; };
 		F56DD0012B19083800D5C96E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F56DD0032B19083A00D5C96E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F56DD0062B19083A00D5C96E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F56DD0152B1909FA00D5C96E /* PreLoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreLoginView.swift; sourceTree = "<group>"; };
+		F56DD0172B190A4800D5C96E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F56DD0192B190A5600D5C96E /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		F56DD01B2B190AA900D5C96E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F56DD0212B190D8800D5C96E /* Image.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Image.swift; sourceTree = "<group>"; };
+		F56DD0232B1911BA00D5C96E /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		F56DD0262B19134600D5C96E /* Icons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Icons.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,7 +49,7 @@
 		F56DCFF32B19083800D5C96E = {
 			isa = PBXGroup;
 			children = (
-				F56DCFFE2B19083800D5C96E /* snackoverflow */,
+				F56DCFFE2B19083800D5C96E /* SnackOverFlow */,
 				F56DCFFD2B19083800D5C96E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -48,15 +62,19 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		F56DCFFE2B19083800D5C96E /* snackoverflow */ = {
+		F56DCFFE2B19083800D5C96E /* SnackOverFlow */ = {
 			isa = PBXGroup;
 			children = (
-				F56DCFFF2B19083800D5C96E /* snackoverflowApp.swift */,
+				F56DD0102B19097F00D5C96E /* Utils */,
+				F56DD00F2B19097600D5C96E /* Resource */,
+				F56DD00E2B19097100D5C96E /* View */,
+				F56DD00D2B19096800D5C96E /* Product */,
+				F56DCFFF2B19083800D5C96E /* SnackOverFlow.swift */,
 				F56DD0012B19083800D5C96E /* ContentView.swift */,
 				F56DD0032B19083A00D5C96E /* Assets.xcassets */,
 				F56DD0052B19083A00D5C96E /* Preview Content */,
 			);
-			path = snackoverflow;
+			path = SnackOverFlow;
 			sourceTree = "<group>";
 		};
 		F56DD0052B19083A00D5C96E /* Preview Content */ = {
@@ -65,6 +83,89 @@
 				F56DD0062B19083A00D5C96E /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F56DD00D2B19096800D5C96E /* Product */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Product;
+			sourceTree = "<group>";
+		};
+		F56DD00E2B19097100D5C96E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F56DD0112B19099500D5C96E /* Authentication */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F56DD00F2B19097600D5C96E /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				F56DD0172B190A4800D5C96E /* Assets.xcassets */,
+				F56DD0192B190A5600D5C96E /* Colors.xcassets */,
+				F56DD01B2B190AA900D5C96E /* Images.xcassets */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		F56DD0102B19097F00D5C96E /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				F56DD0252B19130A00D5C96E /* Extension */,
+				F56DD01F2B190D4700D5C96E /* Enum */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		F56DD0112B19099500D5C96E /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				F56DD0142B1909BC00D5C96E /* PreLogin */,
+				F56DD0132B1909B600D5C96E /* Login */,
+				F56DD0122B1909AC00D5C96E /* Onboarding */,
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
+		F56DD0122B1909AC00D5C96E /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		F56DD0132B1909B600D5C96E /* Login */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		F56DD0142B1909BC00D5C96E /* PreLogin */ = {
+			isa = PBXGroup;
+			children = (
+				F56DD0152B1909FA00D5C96E /* PreLoginView.swift */,
+			);
+			path = PreLogin;
+			sourceTree = "<group>";
+		};
+		F56DD01F2B190D4700D5C96E /* Enum */ = {
+			isa = PBXGroup;
+			children = (
+				F56DD0212B190D8800D5C96E /* Image.swift */,
+				F56DD0262B19134600D5C96E /* Icons.swift */,
+			);
+			path = Enum;
+			sourceTree = "<group>";
+		};
+		F56DD0252B19130A00D5C96E /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				F56DD0232B1911BA00D5C96E /* Color.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,6 +227,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				F56DD0072B19083A00D5C96E /* Preview Assets.xcassets in Resources */,
+				F56DD01C2B190AA900D5C96E /* Images.xcassets in Resources */,
+				F56DD01A2B190A5600D5C96E /* Colors.xcassets in Resources */,
+				F56DD0182B190A4800D5C96E /* Assets.xcassets in Resources */,
 				F56DD0042B19083A00D5C96E /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,7 +242,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				F56DD0022B19083800D5C96E /* ContentView.swift in Sources */,
-				F56DD0002B19083800D5C96E /* snackoverflowApp.swift in Sources */,
+				F56DD0222B190D8800D5C96E /* Image.swift in Sources */,
+				F56DD0272B19134600D5C96E /* Icons.swift in Sources */,
+				F56DD0162B1909FA00D5C96E /* PreLoginView.swift in Sources */,
+				F56DD0242B1911BA00D5C96E /* Color.swift in Sources */,
+				F56DD0002B19083800D5C96E /* SnackOverFlow.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +383,7 @@
 				DEVELOPMENT_TEAM = LCQF82W4UF;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = SnackOverFlow;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -304,6 +413,7 @@
 				DEVELOPMENT_TEAM = LCQF82W4UF;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = SnackOverFlow;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

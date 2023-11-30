@@ -6,3 +6,11 @@
 //
 
 import Foundation
+
+
+enum Icons: String {
+    case app = "ic_app"
+    case facebook = "ic_facebook"
+    case apple = "ic_apple"
+    case google = "ic_google"
+}
