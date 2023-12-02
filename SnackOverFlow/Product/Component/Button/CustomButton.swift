@@ -8,11 +8,31 @@
 import SwiftUI
 
 struct CustomButton: View {
+    var label: String
+    var onTap: () -> Void
+
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Button(action: onTap) {
+            HStack {
+                Spacer()
+                Text(label)
+                Spacer()
+            }
+            
+            .tint(.white)
+            .padding()
+
+        }
+            .buttonBorderShape (.roundedRectangle)
+            .fontWeight(.bold)
+            .controlSize(.large)
+            .background (.peach)
+            .cornerRadius(12)
+
     }
 }
 
 #Preview {
-    CustomButton()
+    CustomButton(label: "Custom Button") { }
 }
+

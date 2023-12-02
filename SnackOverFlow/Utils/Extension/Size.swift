@@ -14,7 +14,7 @@ extension GeometryProxy {
     func dynamicSize(height: Double) -> Double {
         return size.height * height
     }
-    
+
     /// Calculate dynamic width
     /// - Parameter height: Percent of screen width
     /// - Returns: Dynamic width
@@ -23,3 +23,17 @@ extension GeometryProxy {
     }
 }
 
+
+extension CGFloat {
+    public static let kSize4: Double = 4.0
+    public static let kSize8: Double = 8.0
+    public static let kSize12: Double = 12.0
+    public static let kSize16: Double = 16.0
+    public static let kSize20: Double = 20.0
+
+
+    func toInt() -> Int {
+        return Int(self)
+    }
+
+}

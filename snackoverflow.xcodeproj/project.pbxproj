@@ -24,8 +24,9 @@
 		F56DD01A2B190A5600D5C96E /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F56DD0192B190A5600D5C96E /* Colors.xcassets */; };
 		F56DD01C2B190AA900D5C96E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F56DD01B2B190AA900D5C96E /* Images.xcassets */; };
 		F56DD0222B190D8800D5C96E /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = F56DD0212B190D8800D5C96E /* Image.swift */; };
-		F56DD0242B1911BA00D5C96E /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = F56DD0232B1911BA00D5C96E /* Color.swift */; };
 		F56DD0272B19134600D5C96E /* Icons.swift in Sources */ = {isa = PBXBuildFile; fileRef = F56DD0262B19134600D5C96E /* Icons.swift */; };
+		F58ED08D2B1B9149003321B6 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F58ED08C2B1B9149003321B6 /* OnboardingView.swift */; };
+		F58ED08F2B1B93B0003321B6 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F58ED08E2B1B93B0003321B6 /* CustomButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,8 +48,9 @@
 		F56DD0192B190A5600D5C96E /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
 		F56DD01B2B190AA900D5C96E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		F56DD0212B190D8800D5C96E /* Image.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Image.swift; sourceTree = "<group>"; };
-		F56DD0232B1911BA00D5C96E /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
 		F56DD0262B19134600D5C96E /* Icons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Icons.swift; sourceTree = "<group>"; };
+		F58ED08C2B1B9149003321B6 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		F58ED08E2B1B93B0003321B6 /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 				F50F16322B1B5F8D00C6B407 /* GoogleButton.swift */,
 				F50F16342B1B643100C6B407 /* AppleButton.swift */,
 				F50F16362B1B67EE00C6B407 /* EmailButton.swift */,
+				F58ED08E2B1B93B0003321B6 /* CustomButton.swift */,
 			);
 			path = Button;
 			sourceTree = "<group>";
@@ -178,6 +181,7 @@
 		F56DD0122B1909AC00D5C96E /* Onboarding */ = {
 			isa = PBXGroup;
 			children = (
+				F58ED08C2B1B9149003321B6 /* OnboardingView.swift */,
 			);
 			path = Onboarding;
 			sourceTree = "<group>";
@@ -209,7 +213,6 @@
 		F56DD0252B19130A00D5C96E /* Extension */ = {
 			isa = PBXGroup;
 			children = (
-				F56DD0232B1911BA00D5C96E /* Color.swift */,
 				F50F161F2B1B52E100C6B407 /* Padding.swift */,
 				F50F16382B1B6E9A00C6B407 /* Size.swift */,
 			);
@@ -298,11 +301,12 @@
 				F50F16332B1B5F8D00C6B407 /* GoogleButton.swift in Sources */,
 				F56DD0162B1909FA00D5C96E /* PreLoginView.swift in Sources */,
 				F50F16352B1B643100C6B407 /* AppleButton.swift in Sources */,
-				F56DD0242B1911BA00D5C96E /* Color.swift in Sources */,
 				F56DD0002B19083800D5C96E /* SnackOverFlow.swift in Sources */,
 				F50F16282B1B571900C6B407 /* ResourceKey.swift in Sources */,
 				F50F16202B1B52E100C6B407 /* Padding.swift in Sources */,
 				F50F16392B1B6E9A00C6B407 /* Size.swift in Sources */,
+				F58ED08D2B1B9149003321B6 /* OnboardingView.swift in Sources */,
+				F58ED08F2B1B93B0003321B6 /* CustomButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

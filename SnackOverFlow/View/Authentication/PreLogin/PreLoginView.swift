@@ -26,7 +26,7 @@ private struct BodyView: View {
     var body: some View {
         
         GeometryReader { geometry in
-            VStack(spacing: 20) {
+            VStack(spacing: .kSize16) {
                 Spacer()
                 Image(Icons.app.rawValue)
                 Spacer()
