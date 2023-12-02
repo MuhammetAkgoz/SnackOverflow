@@ -8,11 +8,24 @@
 import SwiftUI
 
 struct AppleButton: View {
+    var onTap: () -> Void
+
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Button(action: onTap) {
+            HStack {
+                Image(Icons.apple.rawValue)
+                Text(ResourceKey.apple.locate())
+                Spacer()
+            }.tint(.white).padding()
+
+        }.buttonBorderShape (.roundedRectangle)
+            .controlSize(.large)
+            .background (Color.black)
+            .cornerRadius(12)
+
     }
 }
 
 #Preview {
-    AppleButton()
+    AppleButton { }
 }

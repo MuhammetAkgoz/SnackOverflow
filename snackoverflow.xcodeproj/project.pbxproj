@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F50F161E2B1B523E00C6B407 /* FacebookButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F50F161D2B1B523E00C6B407 /* FacebookButton.swift */; };
+		F50F16202B1B52E100C6B407 /* Padding.swift in Sources */ = {isa = PBXBuildFile; fileRef = F50F161F2B1B52E100C6B407 /* Padding.swift */; };
+		F50F16282B1B571900C6B407 /* ResourceKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = F50F16272B1B571900C6B407 /* ResourceKey.swift */; };
+		F50F162F2B1B5EB000C6B407 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = F50F16312B1B5EB000C6B407 /* Localizable.strings */; };
+		F50F16332B1B5F8D00C6B407 /* GoogleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F50F16322B1B5F8D00C6B407 /* GoogleButton.swift */; };
+		F50F16352B1B643100C6B407 /* AppleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F50F16342B1B643100C6B407 /* AppleButton.swift */; };
+		F50F16372B1B67EE00C6B407 /* EmailButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F50F16362B1B67EE00C6B407 /* EmailButton.swift */; };
+		F50F16392B1B6E9A00C6B407 /* Size.swift in Sources */ = {isa = PBXBuildFile; fileRef = F50F16382B1B6E9A00C6B407 /* Size.swift */; };
 		F56DD0002B19083800D5C96E /* SnackOverFlow.swift in Sources */ = {isa = PBXBuildFile; fileRef = F56DCFFF2B19083800D5C96E /* SnackOverFlow.swift */; };
 		F56DD0022B19083800D5C96E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F56DD0012B19083800D5C96E /* ContentView.swift */; };
 		F56DD0042B19083A00D5C96E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F56DD0032B19083A00D5C96E /* Assets.xcassets */; };
@@ -21,6 +29,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F50F161D2B1B523E00C6B407 /* FacebookButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacebookButton.swift; sourceTree = "<group>"; };
+		F50F161F2B1B52E100C6B407 /* Padding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Padding.swift; sourceTree = "<group>"; };
+		F50F16272B1B571900C6B407 /* ResourceKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResourceKey.swift; sourceTree = "<group>"; };
+		F50F16302B1B5EB000C6B407 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		F50F16322B1B5F8D00C6B407 /* GoogleButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleButton.swift; sourceTree = "<group>"; };
+		F50F16342B1B643100C6B407 /* AppleButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleButton.swift; sourceTree = "<group>"; };
+		F50F16362B1B67EE00C6B407 /* EmailButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailButton.swift; sourceTree = "<group>"; };
+		F50F16382B1B6E9A00C6B407 /* Size.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Size.swift; sourceTree = "<group>"; };
 		F56DCFFC2B19083800D5C96E /* snackoverflow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = snackoverflow.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F56DCFFF2B19083800D5C96E /* SnackOverFlow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnackOverFlow.swift; sourceTree = "<group>"; };
 		F56DD0012B19083800D5C96E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -46,6 +62,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F50F161B2B1B522500C6B407 /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				F50F161C2B1B522E00C6B407 /* Button */,
+			);
+			path = Component;
+			sourceTree = "<group>";
+		};
+		F50F161C2B1B522E00C6B407 /* Button */ = {
+			isa = PBXGroup;
+			children = (
+				F50F161D2B1B523E00C6B407 /* FacebookButton.swift */,
+				F50F16322B1B5F8D00C6B407 /* GoogleButton.swift */,
+				F50F16342B1B643100C6B407 /* AppleButton.swift */,
+				F50F16362B1B67EE00C6B407 /* EmailButton.swift */,
+			);
+			path = Button;
+			sourceTree = "<group>";
+		};
+		F50F16212B1B558900C6B407 /* Locale */ = {
+			isa = PBXGroup;
+			children = (
+				F50F16272B1B571900C6B407 /* ResourceKey.swift */,
+				F50F16312B1B5EB000C6B407 /* Localizable.strings */,
+			);
+			path = Locale;
+			sourceTree = "<group>";
+		};
 		F56DCFF32B19083800D5C96E = {
 			isa = PBXGroup;
 			children = (
@@ -88,6 +132,7 @@
 		F56DD00D2B19096800D5C96E /* Product */ = {
 			isa = PBXGroup;
 			children = (
+				F50F161B2B1B522500C6B407 /* Component */,
 			);
 			path = Product;
 			sourceTree = "<group>";
@@ -113,6 +158,7 @@
 		F56DD0102B19097F00D5C96E /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				F50F16212B1B558900C6B407 /* Locale */,
 				F56DD0252B19130A00D5C96E /* Extension */,
 				F56DD01F2B190D4700D5C96E /* Enum */,
 			);
@@ -164,6 +210,8 @@
 			isa = PBXGroup;
 			children = (
 				F56DD0232B1911BA00D5C96E /* Color.swift */,
+				F50F161F2B1B52E100C6B407 /* Padding.swift */,
+				F50F16382B1B6E9A00C6B407 /* Size.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -227,6 +275,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F56DD0072B19083A00D5C96E /* Preview Assets.xcassets in Resources */,
+				F50F162F2B1B5EB000C6B407 /* Localizable.strings in Resources */,
 				F56DD01C2B190AA900D5C96E /* Images.xcassets in Resources */,
 				F56DD01A2B190A5600D5C96E /* Colors.xcassets in Resources */,
 				F56DD0182B190A4800D5C96E /* Assets.xcassets in Resources */,
@@ -244,13 +293,31 @@
 				F56DD0022B19083800D5C96E /* ContentView.swift in Sources */,
 				F56DD0222B190D8800D5C96E /* Image.swift in Sources */,
 				F56DD0272B19134600D5C96E /* Icons.swift in Sources */,
+				F50F161E2B1B523E00C6B407 /* FacebookButton.swift in Sources */,
+				F50F16372B1B67EE00C6B407 /* EmailButton.swift in Sources */,
+				F50F16332B1B5F8D00C6B407 /* GoogleButton.swift in Sources */,
 				F56DD0162B1909FA00D5C96E /* PreLoginView.swift in Sources */,
+				F50F16352B1B643100C6B407 /* AppleButton.swift in Sources */,
 				F56DD0242B1911BA00D5C96E /* Color.swift in Sources */,
 				F56DD0002B19083800D5C96E /* SnackOverFlow.swift in Sources */,
+				F50F16282B1B571900C6B407 /* ResourceKey.swift in Sources */,
+				F50F16202B1B52E100C6B407 /* Padding.swift in Sources */,
+				F50F16392B1B6E9A00C6B407 /* Size.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F50F16312B1B5EB000C6B407 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F50F16302B1B5EB000C6B407 /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		F56DD0082B19083A00D5C96E /* Debug */ = {

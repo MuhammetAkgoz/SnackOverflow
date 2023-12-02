@@ -5,3 +5,8 @@
   Created by Muhammet Akgöz on 2.12.2023.
   
 */
+
+"signInFacebook"="Sign in with Facebook";
+"signInGoogle"="Sign in with Google";
+"signInApple"="Sign in with Apple";
+"signUpEmail"="Sign up with Email";

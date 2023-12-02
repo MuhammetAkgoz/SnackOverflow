@@ -12,23 +12,34 @@ struct PreLoginView: View {
         ZStack {
             Image(Images.juice.rawValue).resizable()
             Color.black.opacity(0.3)
-           
-                VStack {
-                    Image(Icons.app.rawValue)
-                    
-                    Button(action: {}, label: {
-                        HStack {
-                            Image(Icons.facebook.rawValue)
-                            Text("Button")
-                            Spacer()
-                        }.padding()
-                    }).background(Color.deepSkyBlue)
-                }
-            
+            BodyView()
+
         }
     }
 }
 
 #Preview {
-    PreLoginView().statusBar(hidden: true)
+    PreLoginView().statusBar(hidden: true).ignoresSafeArea(.all)
+}
+
+private struct BodyView: View {
+    var body: some View {
+        
+        GeometryReader { geometry in
+            VStack(spacing: 20) {
+                Spacer()
+                Image(Icons.app.rawValue)
+                Spacer()
+                FacebookButton(onTap: {})
+                GoogleButton(onTap: { })
+                AppleButton(onTap: { })
+                Divider()
+                    .frame(height:2)
+                    .background(.white.opacity(0.5))
+                    .padding(.horizontal,40)
+                EmailButton(onTap: { })
+                Spacer().frame(height:geometry.dynamicSize(height: 0.1))
+            }.padding(.padding16)
+        }
+    }
 }

@@ -8,11 +8,25 @@
 import SwiftUI
 
 struct GoogleButton: View {
+    var onTap: () -> Void
+
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Button(action: onTap) {
+            HStack {
+                Image(Icons.google.rawValue)
+                Text(ResourceKey.google.locate())
+                Spacer()
+            }.tint(.black).padding()
+
+        }
+            .buttonBorderShape (.roundedRectangle)
+            .controlSize(.large)
+            .background (Color.white)
+            .cornerRadius(12)
+
     }
 }
 
 #Preview {
-    GoogleButton()
+    GoogleButton { }
 }

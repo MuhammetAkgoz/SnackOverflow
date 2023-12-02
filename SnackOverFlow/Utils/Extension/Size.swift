@@ -7,12 +7,19 @@
 
 import SwiftUI
 
-struct Size: View {
-    var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+extension GeometryProxy {
+    /// Calculate dynamic height
+    /// - Parameter height: Percent of screen height
+    /// - Returns: Dynamic height
+    func dynamicSize(height: Double) -> Double {
+        return size.height * height
+    }
+    
+    /// Calculate dynamic width
+    /// - Parameter height: Percent of screen width
+    /// - Returns: Dynamic width
+    func dynamicSize(width: Double) -> Double {
+        return size.width * width
     }
 }
 
-#Preview {
-    Size()
-}
