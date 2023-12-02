@@ -13,8 +13,6 @@ enum Icons: String {
     case facebook = "ic_facebook"
     case apple = "ic_apple"
     case google = "ic_google"
-    //ldsl
-    
     
     case mail = "envelope.fill"
     case password = "lock.fill"
