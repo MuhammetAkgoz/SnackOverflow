@@ -27,6 +27,8 @@
 		F56DD0272B19134600D5C96E /* Icons.swift in Sources */ = {isa = PBXBuildFile; fileRef = F56DD0262B19134600D5C96E /* Icons.swift */; };
 		F58ED08D2B1B9149003321B6 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F58ED08C2B1B9149003321B6 /* OnboardingView.swift */; };
 		F58ED08F2B1B93B0003321B6 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F58ED08E2B1B93B0003321B6 /* CustomButton.swift */; };
+		F58ED0952B1BB89F003321B6 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F58ED0942B1BB89F003321B6 /* LoginView.swift */; };
+		F58ED0992B1BBE2A003321B6 /* TextFieldModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = F58ED0982B1BBE2A003321B6 /* TextFieldModifier.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -51,6 +53,8 @@
 		F56DD0262B19134600D5C96E /* Icons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Icons.swift; sourceTree = "<group>"; };
 		F58ED08C2B1B9149003321B6 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
 		F58ED08E2B1B93B0003321B6 /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		F58ED0942B1BB89F003321B6 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		F58ED0982B1BBE2A003321B6 /* TextFieldModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldModifier.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -161,6 +165,7 @@
 		F56DD0102B19097F00D5C96E /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				F58ED0972B1BBE11003321B6 /* Modifiers */,
 				F50F16212B1B558900C6B407 /* Locale */,
 				F56DD0252B19130A00D5C96E /* Extension */,
 				F56DD01F2B190D4700D5C96E /* Enum */,
@@ -189,6 +194,7 @@
 		F56DD0132B1909B600D5C96E /* Login */ = {
 			isa = PBXGroup;
 			children = (
+				F58ED0942B1BB89F003321B6 /* LoginView.swift */,
 			);
 			path = Login;
 			sourceTree = "<group>";
@@ -217,6 +223,14 @@
 				F50F16382B1B6E9A00C6B407 /* Size.swift */,
 			);
 			path = Extension;
+			sourceTree = "<group>";
+		};
+		F58ED0972B1BBE11003321B6 /* Modifiers */ = {
+			isa = PBXGroup;
+			children = (
+				F58ED0982B1BBE2A003321B6 /* TextFieldModifier.swift */,
+			);
+			path = Modifiers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -293,9 +307,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F58ED0992B1BBE2A003321B6 /* TextFieldModifier.swift in Sources */,
 				F56DD0022B19083800D5C96E /* ContentView.swift in Sources */,
 				F56DD0222B190D8800D5C96E /* Image.swift in Sources */,
 				F56DD0272B19134600D5C96E /* Icons.swift in Sources */,
+				F58ED0952B1BB89F003321B6 /* LoginView.swift in Sources */,
 				F50F161E2B1B523E00C6B407 /* FacebookButton.swift in Sources */,
 				F50F16372B1B67EE00C6B407 /* EmailButton.swift in Sources */,
 				F50F16332B1B5F8D00C6B407 /* GoogleButton.swift in Sources */,

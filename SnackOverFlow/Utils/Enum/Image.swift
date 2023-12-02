@@ -13,8 +13,11 @@ enum Images :String {
     case veli = "veli"
     
     
-    /// Onboarding
+    // Onboarding
     case shop = "img_shop"
     case deliver = "img_deliver"
     case handPick = "img_hand_pick"
+    
+    // Login
+    case volcano = "img_wolcano"
 }
