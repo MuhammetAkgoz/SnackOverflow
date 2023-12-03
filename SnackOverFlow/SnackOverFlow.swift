@@ -1,17 +1,18 @@
 //
-//  snackoverflowApp.swift
+//  SnackOverFlow.swift
 //  snackoverflow
 //
-//  Created by Muhammet Akgöz on 30.11.2023.
+//  Created by Muhammet Akgöz on 3.12.2023.
 //
 
 import SwiftUI
 
 @main
-struct snackoverflowApp: App {
-    var body: some Scene {
-        WindowGroup {
-            OnboardingView()
-        }
+struct MyApp: App { // App is handling the `main` function
+  var body: some Scene {
+    WindowGroup {
+      OnboardingView()
     }
+  }
 }
+
