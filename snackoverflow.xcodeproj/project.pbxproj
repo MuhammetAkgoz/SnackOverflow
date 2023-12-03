@@ -16,7 +16,6 @@
 		F50F16372B1B67EE00C6B407 /* EmailButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F50F16362B1B67EE00C6B407 /* EmailButton.swift */; };
 		F50F16392B1B6E9A00C6B407 /* Size.swift in Sources */ = {isa = PBXBuildFile; fileRef = F50F16382B1B6E9A00C6B407 /* Size.swift */; };
 		F56DD0002B19083800D5C96E /* SnackOverFlow.swift in Sources */ = {isa = PBXBuildFile; fileRef = F56DCFFF2B19083800D5C96E /* SnackOverFlow.swift */; };
-		F56DD0022B19083800D5C96E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F56DD0012B19083800D5C96E /* ContentView.swift */; };
 		F56DD0042B19083A00D5C96E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F56DD0032B19083A00D5C96E /* Assets.xcassets */; };
 		F56DD0072B19083A00D5C96E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F56DD0062B19083A00D5C96E /* Preview Assets.xcassets */; };
 		F56DD0162B1909FA00D5C96E /* PreLoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F56DD0152B1909FA00D5C96E /* PreLoginView.swift */; };
@@ -29,6 +28,8 @@
 		F58ED08F2B1B93B0003321B6 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F58ED08E2B1B93B0003321B6 /* CustomButton.swift */; };
 		F58ED0952B1BB89F003321B6 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F58ED0942B1BB89F003321B6 /* LoginView.swift */; };
 		F58ED0992B1BBE2A003321B6 /* TextFieldModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = F58ED0982B1BBE2A003321B6 /* TextFieldModifier.swift */; };
+		F5CBBAFC2B1C8F1500EFDEE8 /* OnboardingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5CBBAFB2B1C8F1500EFDEE8 /* OnboardingViewModel.swift */; };
+		F5CBBAFF2B1C938700EFDEE8 /* Memento.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5CBBAFE2B1C938700EFDEE8 /* Memento.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,7 +43,6 @@
 		F50F16382B1B6E9A00C6B407 /* Size.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Size.swift; sourceTree = "<group>"; };
 		F56DCFFC2B19083800D5C96E /* snackoverflow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = snackoverflow.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F56DCFFF2B19083800D5C96E /* SnackOverFlow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnackOverFlow.swift; sourceTree = "<group>"; };
-		F56DD0012B19083800D5C96E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F56DD0032B19083A00D5C96E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F56DD0062B19083A00D5C96E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F56DD0152B1909FA00D5C96E /* PreLoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreLoginView.swift; sourceTree = "<group>"; };
@@ -55,6 +55,8 @@
 		F58ED08E2B1B93B0003321B6 /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
 		F58ED0942B1BB89F003321B6 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		F58ED0982B1BBE2A003321B6 /* TextFieldModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldModifier.swift; sourceTree = "<group>"; };
+		F5CBBAFB2B1C8F1500EFDEE8 /* OnboardingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewModel.swift; sourceTree = "<group>"; };
+		F5CBBAFE2B1C938700EFDEE8 /* Memento.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Memento.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,7 +123,6 @@
 				F56DD00E2B19097100D5C96E /* View */,
 				F56DD00D2B19096800D5C96E /* Product */,
 				F56DCFFF2B19083800D5C96E /* SnackOverFlow.swift */,
-				F56DD0012B19083800D5C96E /* ContentView.swift */,
 				F56DD0032B19083A00D5C96E /* Assets.xcassets */,
 				F56DD0052B19083A00D5C96E /* Preview Content */,
 			);
@@ -165,6 +166,7 @@
 		F56DD0102B19097F00D5C96E /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				F5CBBAFD2B1C937B00EFDEE8 /* Storage */,
 				F58ED0972B1BBE11003321B6 /* Modifiers */,
 				F50F16212B1B558900C6B407 /* Locale */,
 				F56DD0252B19130A00D5C96E /* Extension */,
@@ -187,6 +189,7 @@
 			isa = PBXGroup;
 			children = (
 				F58ED08C2B1B9149003321B6 /* OnboardingView.swift */,
+				F5CBBAFB2B1C8F1500EFDEE8 /* OnboardingViewModel.swift */,
 			);
 			path = Onboarding;
 			sourceTree = "<group>";
@@ -231,6 +234,14 @@
 				F58ED0982B1BBE2A003321B6 /* TextFieldModifier.swift */,
 			);
 			path = Modifiers;
+			sourceTree = "<group>";
+		};
+		F5CBBAFD2B1C937B00EFDEE8 /* Storage */ = {
+			isa = PBXGroup;
+			children = (
+				F5CBBAFE2B1C938700EFDEE8 /* Memento.swift */,
+			);
+			path = Storage;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -308,7 +319,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				F58ED0992B1BBE2A003321B6 /* TextFieldModifier.swift in Sources */,
-				F56DD0022B19083800D5C96E /* ContentView.swift in Sources */,
 				F56DD0222B190D8800D5C96E /* Image.swift in Sources */,
 				F56DD0272B19134600D5C96E /* Icons.swift in Sources */,
 				F58ED0952B1BB89F003321B6 /* LoginView.swift in Sources */,
@@ -316,11 +326,13 @@
 				F50F16372B1B67EE00C6B407 /* EmailButton.swift in Sources */,
 				F50F16332B1B5F8D00C6B407 /* GoogleButton.swift in Sources */,
 				F56DD0162B1909FA00D5C96E /* PreLoginView.swift in Sources */,
+				F5CBBAFC2B1C8F1500EFDEE8 /* OnboardingViewModel.swift in Sources */,
 				F50F16352B1B643100C6B407 /* AppleButton.swift in Sources */,
 				F56DD0002B19083800D5C96E /* SnackOverFlow.swift in Sources */,
 				F50F16282B1B571900C6B407 /* ResourceKey.swift in Sources */,
 				F50F16202B1B52E100C6B407 /* Padding.swift in Sources */,
 				F50F16392B1B6E9A00C6B407 /* Size.swift in Sources */,
+				F5CBBAFF2B1C938700EFDEE8 /* Memento.swift in Sources */,
 				F58ED08D2B1B9149003321B6 /* OnboardingView.swift in Sources */,
 				F58ED08F2B1B93B0003321B6 /* CustomButton.swift in Sources */,
 			);

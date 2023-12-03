@@ -9,12 +9,12 @@ import SwiftUI
 
 struct PreLoginView: View {
     var body: some View {
-        ZStack {
-            Image(Images.juice.rawValue).resizable()
-            Color.black.opacity(0.3)
-            BodyView()
-
-        }
+            ZStack {
+                Image(Images.juice.rawValue).resizable()
+                Color.black.opacity(0.3)
+                BodyView()
+            }
+        .ignoresSafeArea(.all).toolbar(.hidden)
     }
 }
 
@@ -37,7 +37,8 @@ private struct BodyView: View {
                     .frame(height:2)
                     .background(.white.opacity(0.5))
                     .padding(.horizontal,40)
-                EmailButton(onTap: { })
+                    EmailButton(onTap: { })
+                
                 Spacer().frame(height:geometry.dynamicSize(height: 0.1))
             }.padding(.padding16)
         }

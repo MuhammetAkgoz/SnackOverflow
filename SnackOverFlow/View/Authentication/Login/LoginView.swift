@@ -11,10 +11,12 @@ struct LoginView: View {
     var body: some View {
         VStack(spacing: .kSize16) {
             /// Image View
-            Spacer()
-            Image(Images.volcano.rawValue)
-            Text("Welcome Back!").font(.title).fontWeight(.semibold).foregroundStyle(.peach)
-            
+            Group {
+                Spacer()
+                Image(Images.volcano.rawValue)
+                Text("Welcome Back!").font(.title).fontWeight(.semibold).foregroundStyle(.peach)
+                
+            }
             
             /// Form View
             Group {

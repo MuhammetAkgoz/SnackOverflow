@@ -35,5 +35,4 @@ extension CGFloat {
     func toInt() -> Int {
         return Int(self)
     }
-
 }
