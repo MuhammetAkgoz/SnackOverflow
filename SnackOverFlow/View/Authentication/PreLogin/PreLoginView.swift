@@ -9,12 +9,12 @@ import SwiftUI
 
 struct PreLoginView: View {
     var body: some View {
-            ZStack {
-                Image(Images.juice.rawValue).resizable()
-                Color.black.opacity(0.3)
-                BodyView()
-            }
-        .ignoresSafeArea(.all).toolbar(.hidden)
+        ZStack {
+            Image(Images.juice.rawValue).resizable()
+            Color.black.opacity(0.3)
+            BodyView()
+        }
+            .ignoresSafeArea(.all).toolbar(.hidden)
     }
 }
 
@@ -24,22 +24,22 @@ struct PreLoginView: View {
 
 private struct BodyView: View {
     var body: some View {
-        
+
         GeometryReader { geometry in
             VStack(spacing: .kSize16) {
                 Spacer()
                 Image(Icons.app.rawValue)
                 Spacer()
-                FacebookButton(onTap: {})
+                FacebookButton(onTap: { })
                 GoogleButton(onTap: { })
                 AppleButton(onTap: { })
                 Divider()
-                    .frame(height:2)
+                    .frame(height: 2)
                     .background(.white.opacity(0.5))
-                    .padding(.horizontal,40)
-                    EmailButton(onTap: { })
-                
-                Spacer().frame(height:geometry.dynamicSize(height: 0.1))
+                    .padding(.horizontal, 40)
+                EmailButton(onTap: { })
+
+                Spacer().frame(height: geometry.dynamicSize(height: 0.1))
             }.padding(.padding16)
         }
     }

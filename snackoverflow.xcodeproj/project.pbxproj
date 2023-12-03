@@ -15,11 +15,8 @@
 		F50F16352B1B643100C6B407 /* AppleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F50F16342B1B643100C6B407 /* AppleButton.swift */; };
 		F50F16372B1B67EE00C6B407 /* EmailButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F50F16362B1B67EE00C6B407 /* EmailButton.swift */; };
 		F50F16392B1B6E9A00C6B407 /* Size.swift in Sources */ = {isa = PBXBuildFile; fileRef = F50F16382B1B6E9A00C6B407 /* Size.swift */; };
-		F56DD0002B19083800D5C96E /* SnackOverFlow.swift in Sources */ = {isa = PBXBuildFile; fileRef = F56DCFFF2B19083800D5C96E /* SnackOverFlow.swift */; };
-		F56DD0042B19083A00D5C96E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F56DD0032B19083A00D5C96E /* Assets.xcassets */; };
 		F56DD0072B19083A00D5C96E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F56DD0062B19083A00D5C96E /* Preview Assets.xcassets */; };
 		F56DD0162B1909FA00D5C96E /* PreLoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F56DD0152B1909FA00D5C96E /* PreLoginView.swift */; };
-		F56DD0182B190A4800D5C96E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F56DD0172B190A4800D5C96E /* Assets.xcassets */; };
 		F56DD01A2B190A5600D5C96E /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F56DD0192B190A5600D5C96E /* Colors.xcassets */; };
 		F56DD01C2B190AA900D5C96E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F56DD01B2B190AA900D5C96E /* Images.xcassets */; };
 		F56DD0222B190D8800D5C96E /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = F56DD0212B190D8800D5C96E /* Image.swift */; };
@@ -28,8 +25,13 @@
 		F58ED08F2B1B93B0003321B6 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F58ED08E2B1B93B0003321B6 /* CustomButton.swift */; };
 		F58ED0952B1BB89F003321B6 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F58ED0942B1BB89F003321B6 /* LoginView.swift */; };
 		F58ED0992B1BBE2A003321B6 /* TextFieldModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = F58ED0982B1BBE2A003321B6 /* TextFieldModifier.swift */; };
+		F5962A6B2B1CCE0300785151 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5962A6A2B1CCE0300785151 /* Assets.xcassets */; };
+		F5962A6D2B1CCE0A00785151 /* SnackOverFlow.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5962A6C2B1CCE0A00785151 /* SnackOverFlow.swift */; };
 		F5CBBAFC2B1C8F1500EFDEE8 /* OnboardingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5CBBAFB2B1C8F1500EFDEE8 /* OnboardingViewModel.swift */; };
 		F5CBBAFF2B1C938700EFDEE8 /* Memento.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5CBBAFE2B1C938700EFDEE8 /* Memento.swift */; };
+		F5CBBB022B1CB5A200EFDEE8 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5CBBB012B1CB5A200EFDEE8 /* NetworkManager.swift */; };
+		F5CBBB052B1CBD4800EFDEE8 /* UserResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5CBBB042B1CBD4800EFDEE8 /* UserResponse.swift */; };
+		F5CBBB082B1CBE0100EFDEE8 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = F5CBBB072B1CBE0100EFDEE8 /* Alamofire */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,11 +44,8 @@
 		F50F16362B1B67EE00C6B407 /* EmailButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailButton.swift; sourceTree = "<group>"; };
 		F50F16382B1B6E9A00C6B407 /* Size.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Size.swift; sourceTree = "<group>"; };
 		F56DCFFC2B19083800D5C96E /* snackoverflow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = snackoverflow.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		F56DCFFF2B19083800D5C96E /* SnackOverFlow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnackOverFlow.swift; sourceTree = "<group>"; };
-		F56DD0032B19083A00D5C96E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F56DD0062B19083A00D5C96E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F56DD0152B1909FA00D5C96E /* PreLoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreLoginView.swift; sourceTree = "<group>"; };
-		F56DD0172B190A4800D5C96E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F56DD0192B190A5600D5C96E /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
 		F56DD01B2B190AA900D5C96E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		F56DD0212B190D8800D5C96E /* Image.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Image.swift; sourceTree = "<group>"; };
@@ -55,8 +54,12 @@
 		F58ED08E2B1B93B0003321B6 /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
 		F58ED0942B1BB89F003321B6 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		F58ED0982B1BBE2A003321B6 /* TextFieldModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldModifier.swift; sourceTree = "<group>"; };
+		F5962A6A2B1CCE0300785151 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../SwiftUITutorials/SwiftUITutorials/Assets.xcassets; sourceTree = "<group>"; };
+		F5962A6C2B1CCE0A00785151 /* SnackOverFlow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SnackOverFlow.swift; path = ../../SwiftUITutorials/SwiftUITutorials/SnackOverFlow.swift; sourceTree = "<group>"; };
 		F5CBBAFB2B1C8F1500EFDEE8 /* OnboardingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewModel.swift; sourceTree = "<group>"; };
 		F5CBBAFE2B1C938700EFDEE8 /* Memento.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Memento.swift; sourceTree = "<group>"; };
+		F5CBBB012B1CB5A200EFDEE8 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		F5CBBB042B1CBD4800EFDEE8 /* UserResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserResponse.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +67,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F5CBBB082B1CBE0100EFDEE8 /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -118,12 +122,12 @@
 		F56DCFFE2B19083800D5C96E /* SnackOverFlow */ = {
 			isa = PBXGroup;
 			children = (
+				F5962A6C2B1CCE0A00785151 /* SnackOverFlow.swift */,
+				F5962A6A2B1CCE0300785151 /* Assets.xcassets */,
 				F56DD0102B19097F00D5C96E /* Utils */,
 				F56DD00F2B19097600D5C96E /* Resource */,
 				F56DD00E2B19097100D5C96E /* View */,
 				F56DD00D2B19096800D5C96E /* Product */,
-				F56DCFFF2B19083800D5C96E /* SnackOverFlow.swift */,
-				F56DD0032B19083A00D5C96E /* Assets.xcassets */,
 				F56DD0052B19083A00D5C96E /* Preview Content */,
 			);
 			path = SnackOverFlow;
@@ -140,6 +144,7 @@
 		F56DD00D2B19096800D5C96E /* Product */ = {
 			isa = PBXGroup;
 			children = (
+				F5CBBB002B1CB57900EFDEE8 /* Service */,
 				F50F161B2B1B522500C6B407 /* Component */,
 			);
 			path = Product;
@@ -148,6 +153,7 @@
 		F56DD00E2B19097100D5C96E /* View */ = {
 			isa = PBXGroup;
 			children = (
+				F5CBBB032B1CBD2C00EFDEE8 /* Model */,
 				F56DD0112B19099500D5C96E /* Authentication */,
 			);
 			path = View;
@@ -156,7 +162,6 @@
 		F56DD00F2B19097600D5C96E /* Resource */ = {
 			isa = PBXGroup;
 			children = (
-				F56DD0172B190A4800D5C96E /* Assets.xcassets */,
 				F56DD0192B190A5600D5C96E /* Colors.xcassets */,
 				F56DD01B2B190AA900D5C96E /* Images.xcassets */,
 			);
@@ -244,6 +249,22 @@
 			path = Storage;
 			sourceTree = "<group>";
 		};
+		F5CBBB002B1CB57900EFDEE8 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				F5CBBB012B1CB5A200EFDEE8 /* NetworkManager.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		F5CBBB032B1CBD2C00EFDEE8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F5CBBB042B1CBD4800EFDEE8 /* UserResponse.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -260,6 +281,9 @@
 			dependencies = (
 			);
 			name = snackoverflow;
+			packageProductDependencies = (
+				F5CBBB072B1CBE0100EFDEE8 /* Alamofire */,
+			);
 			productName = snackoverflow;
 			productReference = F56DCFFC2B19083800D5C96E /* snackoverflow.app */;
 			productType = "com.apple.product-type.application";
@@ -288,6 +312,9 @@
 				Base,
 			);
 			mainGroup = F56DCFF32B19083800D5C96E;
+			packageReferences = (
+				F5CBBB062B1CBE0100EFDEE8 /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
 			productRefGroup = F56DCFFD2B19083800D5C96E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -306,8 +333,7 @@
 				F50F162F2B1B5EB000C6B407 /* Localizable.strings in Resources */,
 				F56DD01C2B190AA900D5C96E /* Images.xcassets in Resources */,
 				F56DD01A2B190A5600D5C96E /* Colors.xcassets in Resources */,
-				F56DD0182B190A4800D5C96E /* Assets.xcassets in Resources */,
-				F56DD0042B19083A00D5C96E /* Assets.xcassets in Resources */,
+				F5962A6B2B1CCE0300785151 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -318,6 +344,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F5CBBB022B1CB5A200EFDEE8 /* NetworkManager.swift in Sources */,
 				F58ED0992B1BBE2A003321B6 /* TextFieldModifier.swift in Sources */,
 				F56DD0222B190D8800D5C96E /* Image.swift in Sources */,
 				F56DD0272B19134600D5C96E /* Icons.swift in Sources */,
@@ -328,13 +355,14 @@
 				F56DD0162B1909FA00D5C96E /* PreLoginView.swift in Sources */,
 				F5CBBAFC2B1C8F1500EFDEE8 /* OnboardingViewModel.swift in Sources */,
 				F50F16352B1B643100C6B407 /* AppleButton.swift in Sources */,
-				F56DD0002B19083800D5C96E /* SnackOverFlow.swift in Sources */,
 				F50F16282B1B571900C6B407 /* ResourceKey.swift in Sources */,
+				F5CBBB052B1CBD4800EFDEE8 /* UserResponse.swift in Sources */,
 				F50F16202B1B52E100C6B407 /* Padding.swift in Sources */,
 				F50F16392B1B6E9A00C6B407 /* Size.swift in Sources */,
 				F5CBBAFF2B1C938700EFDEE8 /* Memento.swift in Sources */,
 				F58ED08D2B1B9149003321B6 /* OnboardingView.swift in Sources */,
 				F58ED08F2B1B93B0003321B6 /* CustomButton.swift in Sources */,
+				F5962A6D2B1CCE0A00785151 /* SnackOverFlow.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -553,6 +581,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F5CBBB062B1CBE0100EFDEE8 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.8.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F5CBBB072B1CBE0100EFDEE8 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F5CBBB062B1CBE0100EFDEE8 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = F56DCFF42B19083800D5C96E /* Project object */;
 }

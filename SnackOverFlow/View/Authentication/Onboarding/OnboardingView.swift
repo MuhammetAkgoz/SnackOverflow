@@ -43,7 +43,7 @@ struct OnboardingView: View {
             .navigationDestination(isPresented: $viewModel.isLoginRedirect) {
                 PreLoginView()
             }
-            .onAppear {
+            .onAppear{             
                 viewModel.direction()
             }
         }
