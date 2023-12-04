@@ -12,20 +12,7 @@ final class OnboardingViewModel: ObservableObject {
     @Published var isLoginRedirect: Bool = false
     private let memento = Memento()
     
-    init() {
-        Task.detached{
-            await self.getUser()
-        }
-    }
 
-    func getUser() async {
-        let service = NetworkManager()
-        
-        let response = await service.get(path: .users, method: .get, type: UserResponseModel.self)
-
-
-    }
-    
     private func isAppOpened() -> Bool {
         return memento.get(key: .isOponed).isEmpty
     }

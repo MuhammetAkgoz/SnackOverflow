@@ -23,24 +23,36 @@ struct PreLoginView: View {
 }
 
 private struct BodyView: View {
+    @State var isActive = false
+    
     var body: some View {
 
-        GeometryReader { geometry in
-            VStack(spacing: .kSize16) {
-                Spacer()
-                Image(Icons.app.rawValue)
-                Spacer()
-                FacebookButton(onTap: { })
-                GoogleButton(onTap: { })
-                AppleButton(onTap: { })
-                Divider()
-                    .frame(height: 2)
-                    .background(.white.opacity(0.5))
-                    .padding(.horizontal, 40)
-                EmailButton(onTap: { })
+        NavigationStack {
+            GeometryReader { geometry in
+                VStack(spacing: .kSize16) {
+                    Spacer()
+                    Image(Icons.app.rawValue)
+                    Spacer()
+                    FacebookButton(onTap: { })
+                    GoogleButton(onTap: { })
+                    AppleButton(onTap: { })
+                    Divider()
+                        .frame(height: 2)
+                        .background(.white.opacity(0.5))
+                        .padding(.horizontal, 40)
+                    
+                    EmailButton(onTap: {
+                        isActive = true
+                    })
 
-                Spacer().frame(height: geometry.dynamicSize(height: 0.1))
-            }.padding(.padding16)
+            
+
+                    Spacer().frame(height: geometry.dynamicSize(height: 0.1))
+                }.padding(.padding16)
+                    .navigationDestination(isPresented: $isActive) {
+                        LoginView()
+                    }
+            }
         }
     }
 }
