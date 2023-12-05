@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F50BD6DC2B1FB686003413F6 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F50BD6DB2B1FB686003413F6 /* MainView.swift */; };
+		F50BD6E02B1FB77A003413F6 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F50BD6DF2B1FB77A003413F6 /* HomeView.swift */; };
+		F50BD6E22B1FBBBE003413F6 /* MarketView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F50BD6E12B1FBBBE003413F6 /* MarketView.swift */; };
+		F50BD6E42B1FBBCB003413F6 /* CreateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F50BD6E32B1FBBCB003413F6 /* CreateView.swift */; };
+		F50BD6E62B1FBBDB003413F6 /* FavoriteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F50BD6E52B1FBBDB003413F6 /* FavoriteView.swift */; };
+		F50BD6E82B1FBBEE003413F6 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F50BD6E72B1FBBEE003413F6 /* ProfileView.swift */; };
 		F50F161E2B1B523E00C6B407 /* FacebookButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F50F161D2B1B523E00C6B407 /* FacebookButton.swift */; };
 		F50F16202B1B52E100C6B407 /* Padding.swift in Sources */ = {isa = PBXBuildFile; fileRef = F50F161F2B1B52E100C6B407 /* Padding.swift */; };
 		F50F16282B1B571900C6B407 /* ResourceKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = F50F16272B1B571900C6B407 /* ResourceKey.swift */; };
@@ -38,6 +44,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F50BD6DB2B1FB686003413F6 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		F50BD6DF2B1FB77A003413F6 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		F50BD6E12B1FBBBE003413F6 /* MarketView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketView.swift; sourceTree = "<group>"; };
+		F50BD6E32B1FBBCB003413F6 /* CreateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateView.swift; sourceTree = "<group>"; };
+		F50BD6E52B1FBBDB003413F6 /* FavoriteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteView.swift; sourceTree = "<group>"; };
+		F50BD6E72B1FBBEE003413F6 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		F50F161D2B1B523E00C6B407 /* FacebookButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacebookButton.swift; sourceTree = "<group>"; };
 		F50F161F2B1B52E100C6B407 /* Padding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Padding.swift; sourceTree = "<group>"; };
 		F50F16272B1B571900C6B407 /* ResourceKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResourceKey.swift; sourceTree = "<group>"; };
@@ -80,6 +92,59 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F50BD6D52B1FB2AD003413F6 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				F50BD6DA2B1FB2EC003413F6 /* Account */,
+				F50BD6D92B1FB2E6003413F6 /* Favorite */,
+				F50BD6D82B1FB2DB003413F6 /* Create */,
+				F50BD6D72B1FB2D6003413F6 /* Market */,
+				F50BD6D62B1FB2CF003413F6 /* Home */,
+				F50BD6DB2B1FB686003413F6 /* MainView.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		F50BD6D62B1FB2CF003413F6 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				F50BD6DF2B1FB77A003413F6 /* HomeView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		F50BD6D72B1FB2D6003413F6 /* Market */ = {
+			isa = PBXGroup;
+			children = (
+				F50BD6E12B1FBBBE003413F6 /* MarketView.swift */,
+			);
+			path = Market;
+			sourceTree = "<group>";
+		};
+		F50BD6D82B1FB2DB003413F6 /* Create */ = {
+			isa = PBXGroup;
+			children = (
+				F50BD6E32B1FBBCB003413F6 /* CreateView.swift */,
+			);
+			path = Create;
+			sourceTree = "<group>";
+		};
+		F50BD6D92B1FB2E6003413F6 /* Favorite */ = {
+			isa = PBXGroup;
+			children = (
+				F50BD6E52B1FBBDB003413F6 /* FavoriteView.swift */,
+			);
+			path = Favorite;
+			sourceTree = "<group>";
+		};
+		F50BD6DA2B1FB2EC003413F6 /* Account */ = {
+			isa = PBXGroup;
+			children = (
+				F50BD6E72B1FBBEE003413F6 /* ProfileView.swift */,
+			);
+			path = Account;
+			sourceTree = "<group>";
+		};
 		F50F161B2B1B522500C6B407 /* Component */ = {
 			isa = PBXGroup;
 			children = (
@@ -159,6 +224,7 @@
 		F56DD00E2B19097100D5C96E /* View */ = {
 			isa = PBXGroup;
 			children = (
+				F50BD6D52B1FB2AD003413F6 /* Main */,
 				F5CBBB032B1CBD2C00EFDEE8 /* Model */,
 				F56DD0112B19099500D5C96E /* Authentication */,
 			);
@@ -359,20 +425,26 @@
 				F56DD0222B190D8800D5C96E /* Image.swift in Sources */,
 				F56DD0272B19134600D5C96E /* Icons.swift in Sources */,
 				F58ED0952B1BB89F003321B6 /* LoginView.swift in Sources */,
+				F50BD6E22B1FBBBE003413F6 /* MarketView.swift in Sources */,
 				F50F161E2B1B523E00C6B407 /* FacebookButton.swift in Sources */,
+				F50BD6E42B1FBBCB003413F6 /* CreateView.swift in Sources */,
 				F50F16372B1B67EE00C6B407 /* EmailButton.swift in Sources */,
 				F5570D402B1E487B00572434 /* LoginViewModel.swift in Sources */,
 				F50F16332B1B5F8D00C6B407 /* GoogleButton.swift in Sources */,
+				F50BD6E82B1FBBEE003413F6 /* ProfileView.swift in Sources */,
 				F56DD0162B1909FA00D5C96E /* PreLoginView.swift in Sources */,
 				F5CBBAFC2B1C8F1500EFDEE8 /* OnboardingViewModel.swift in Sources */,
 				F5570D422B1E4A1F00572434 /* LoginRequest.swift in Sources */,
 				F50F16352B1B643100C6B407 /* AppleButton.swift in Sources */,
+				F50BD6E62B1FBBDB003413F6 /* FavoriteView.swift in Sources */,
 				F50F16282B1B571900C6B407 /* ResourceKey.swift in Sources */,
 				F5CBBB052B1CBD4800EFDEE8 /* UserResponse.swift in Sources */,
 				F50F16202B1B52E100C6B407 /* Padding.swift in Sources */,
 				F50F16392B1B6E9A00C6B407 /* Size.swift in Sources */,
 				F5CBBAFF2B1C938700EFDEE8 /* Memento.swift in Sources */,
+				F50BD6DC2B1FB686003413F6 /* MainView.swift in Sources */,
 				F58ED08D2B1B9149003321B6 /* OnboardingView.swift in Sources */,
+				F50BD6E02B1FB77A003413F6 /* HomeView.swift in Sources */,
 				F5570D442B1E4A8300572434 /* LoginResponse.swift in Sources */,
 				F58ED08F2B1B93B0003321B6 /* CustomButton.swift in Sources */,
 			);
